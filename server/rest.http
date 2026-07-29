@@ -1,0 +1,23 @@
+### Analyze route
+POST http://localhost:8000/api/analyze
+Content-Type: application/json
+
+{
+  "text": "This is a sample text to analyze."
+}
+
+### Grammar check route
+POST http://localhost:8000/api/grammarcheck
+Content-Type: application/json
+
+{
+  "text": "She go to school every day."
+}
+
+### Spell check route
+POST http://localhost:8000/api/spell-check
+Content-Type: application/json
+
+{
+  "text": "This sentense has a speling mistake."
+}
