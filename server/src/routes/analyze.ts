@@ -22,7 +22,7 @@ analyzeRoute.post("/", async (req: Request, res: Response) => {
       contents: text,
       config: {
         systemInstruction:
-          "Analyze the following text and provide a summary, key points, and any relevant insights.",
+          "Analyze the given text and provide exactly 3 different possible analyses or perspectives (e.g., 1. Executive Summary, 2. Key Insights & Themes, 3. Critical Critique/Improvements). Format them clearly with numbered headings.",
         // maxOutputTokens: 150,
         temperature: 0.7,
       },
