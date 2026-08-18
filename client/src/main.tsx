@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <StrictMode>
       <PrivyProvider
-        appId="import.meta.env.VITE_PRIVY_APP_ID"
+        appId={import.meta.env.VITE_PRIVY_APP_ID}
         config={{
           appearance: {
             theme: "dark",
